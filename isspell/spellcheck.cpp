@@ -16,6 +16,7 @@ template <typename Iterator, typename UnaryPred>
 std::vector<Iterator> find_all(Iterator begin, Iterator end, UnaryPred pred);
 
 Corpus tokenize(const std::string& source) {
+
   /* TODO: Implement this method */
   auto space_list = find_all(source.begin(), source.end(),isspace);
 
